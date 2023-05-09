@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(45deg,#2758bb,#7a8eb5);
+}
+
+.bg-result-image{
+    width: 100%;
+    filter: brightness(70%);
+}
+
+
+.results button{
+    /* background-color: rgb(28, 146, 161); */
+    /* color: whitesmoke; */
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    margin:1rem 3rem;
+    border-radius: 4rem;
+
+
+}
+.results button:hover{
+    cursor: pointer;
+}

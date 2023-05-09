@@ -1,0 +1,39 @@
+body{
+    /* min-height: 100vh; */
+    background:linear-gradient(45deg,#7a8eb5,#2758bb);
+}   
+
+.main{
+    display: flex;
+}
+.contact{
+    width:60%;
+    position: relative;
+    top: 100px;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.head{
+    font-size: 3rem;
+    font-family: monospace;
+    position: relative;
+}
+
+.social{
+    font-size: 2rem;
+}
+.contact .icon img{
+    width: 50px;
+    border-radius: 25px;
+}
+.social-handle{
+    margin: 1rem;
+}
+
+.social a{
+    text-decoration: none;
+    color: black;
+}
+.social a:hover{
+    color:antiquewhite;
+}
